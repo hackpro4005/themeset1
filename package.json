@@ -1,0 +1,83 @@
+{
+	"name": "themeset1",
+	"version": "0.1.0",
+	"displayName": "Theme set 1",
+	"homepage": "",
+	"description": "A thmeset",
+	"publisher": "hackpro4005",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./build.js",
+		"lint": "node ./lint.js",
+		"package": "vsce package -o ./bin/themeset1.vsix",
+		"vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
+	},
+	"maintainers": [
+		"hackpro4005"
+	],
+	"contributors": [
+	"hackpro4005"
+	],
+	"repository": {
+		"type": "vs",
+		"url": ""
+	},
+	"bugs": {
+		"url": "https://github.com/hackpro4005/themeset1/issues"
+	},
+	"engines": { 
+		"vscode": "^0.1.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"themeset"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#3c4557",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "blue",
+				"uiTheme": "vs-dark",
+				"path": "./theme/blue.json"
+			},
+			{
+				"label": "green",
+				"uiTheme": "vs-dark",
+				"path": "./theme/green.json"
+			}
+			,{
+				"label": "light purple",
+				"uiTheme": "vs-dark",
+				"path": "./theme/lightpurple.json"
+			}
+			,{
+				"label": "gameboy pocket",
+				"uiTheme": "vs-dark",
+				"path": "./theme/gbpocket.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"js-yaml": "^4.1.0",
+		"prettier": "^3.0.0",
+		"tinycolor2": "^1.6.0",
+		"vsce": "^2.15.0"
+	},
+	"__metadata": {
+		"id": "aerrfd-btfj-47ehh7",
+		"publisherDisplayName": "hackpro4005",
+		"publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1694971677755,
+		"preRelease": false
+	}
+}
