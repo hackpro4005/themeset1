@@ -14,7 +14,7 @@
 		"vsce-publish": "vsce publish"
 	},
 	"maintainers": [
-		"hackpro4005"
+		"hackerprototype4005"
 	],
 	"contributors": [
 	"hackpro4005"
@@ -73,7 +73,7 @@
 	"__metadata": {
 		"id": "aerrfd-btfj-47ehh7",
 		"publisherDisplayName": "hackpro4005",
-		"publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b",
+		"publisherId": "5v76377vw857bv46ew44c",
 		"targetPlatform": "undefined",
 		"updated": false,
 		"isPreReleaseVersion": false,
